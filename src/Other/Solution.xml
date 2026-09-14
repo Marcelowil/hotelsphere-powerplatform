@@ -80,6 +80,16 @@
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="2" />
       <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="hsp_eventodeintegracao" behavior="0" />
+      <RootComponent type="1" schemaName="hsp_feedback" behavior="0" />
+      <RootComponent type="1" schemaName="hsp_quarto" behavior="0" />
+      <RootComponent type="1" schemaName="hsp_reserva" behavior="0" />
+      <RootComponent type="1" schemaName="hsp_tipodequarto" behavior="0" />
+      <RootComponent type="9" schemaName="hsp_categoriadohotel" behavior="0" />
+      <RootComponent type="9" schemaName="hsp_origemreserva" behavior="0" />
+      <RootComponent type="9" schemaName="hsp_preferenciaquarto" behavior="0" />
+      <RootComponent type="9" schemaName="hsp_statusdareserva" behavior="0" />
+      <RootComponent type="9" schemaName="hsp_statusdoquarto" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

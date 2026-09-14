@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c0214db3-c62c-496f-84e6-39fc3e36d397}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{4414B52A-D083-49B4-9582-DE905630B3D2}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{F6A3D2D9-B9A8-407D-893E-2BDF0BAF3080}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{E95FF00E-456B-4AD9-AD23-4C280C080CE8}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_eventodeintegracao1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hsp_EventodeIntegracao1" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{A6216971-5D94-49BC-AB23-A1086AEC07C1}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c527f76-a959-4e4a-b982-d41db9d043dc}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_tipodoevento" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="hsp_tipodoevento" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0eba89ce-c55d-477e-92da-ef12524ffa0c}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_entidade" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="hsp_entidade" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{70ebcace-9181-455c-8ec0-a30bc6191501}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_recordid" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="hsp_recordid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a1e305a-aadd-4bf0-be50-61afd9970275}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_sistemaexterno" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="hsp_sistemaexterno" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bbc2b29e-5161-466f-814a-22d66e3a87d7}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="hsp_status" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{369b5cb9-f5b9-4dcd-8935-1ffd5c4e1652}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_payload" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="hsp_payload" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{868ad30c-8ac3-4d1d-bb6b-8dfc8275f749}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_datadeprocessamento" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="hsp_datadeprocessamento" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f6dc6cf8-b536-4d52-867e-c285949b0407}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_datadaultimatentativa" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="hsp_datadaultimatentativa" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{edff3001-5e51-49c3-9daa-c6f922dd9c47}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_tentativas" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="hsp_tentativas" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a1c701e1-648d-4017-8c95-e3c2b6924e57}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_mensagemdeerro" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="hsp_mensagemdeerro" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

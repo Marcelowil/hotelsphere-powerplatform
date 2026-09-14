@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f9b5675e-a33b-446b-98e2-6dd1769f14ef}</savedqueryid>
+    <layoutxml>
+      <grid name="hsp_eventodeintegracaos" jump="hsp_eventodeintegracao1" select="1" icon="1" preview="0">
+        <row name="hsp_eventodeintegracao" id="hsp_eventodeintegracaoid">
+          <cell name="hsp_eventodeintegracao1" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="hsp_eventodeintegracao">
+          <attribute name="hsp_eventodeintegracaoid" />
+          <attribute name="hsp_eventodeintegracao1" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Exibição de Consulta de Evento de Integração" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
