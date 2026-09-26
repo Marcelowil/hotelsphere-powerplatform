@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{976def53-6bb3-f111-b374-7ced8d65b584}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="hsp_nome" select="1" icon="1" preview="1">
+        <row name="result" id="hsp_tarifaid">
+          <cell name="hsp_codigotarifa" width="135" />
+          <cell name="hsp_hotel" width="153" />
+          <cell name="hsp_tipodequarto" width="175" />
+          <cell name="hsp_origem" width="100" />
+          <cell name="hsp_datainicio" width="120" />
+          <cell name="hsp_datafinal" width="100" />
+          <cell name="hsp_valordiaria" width="131" />
+          <cell name="statecode" width="100" />
+          <cell name="modifiedon" width="158" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="hsp_tarifa">
+          <attribute name="hsp_tarifaid" />
+          <attribute name="hsp_codigotarifa" />
+          <attribute name="hsp_hotel" />
+          <attribute name="hsp_tipodequarto" />
+          <attribute name="hsp_origem" />
+          <attribute name="hsp_datainicio" />
+          <attribute name="hsp_datafinal" />
+          <attribute name="hsp_valordiaria" />
+          <attribute name="statecode" />
+          <attribute name="modifiedon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <order attribute="hsp_hotel" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Tarifas Expiradas" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

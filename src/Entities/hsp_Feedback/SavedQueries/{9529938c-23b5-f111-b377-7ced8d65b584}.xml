@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9529938c-23b5-f111-b377-7ced8d65b584}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="hsp_nome" select="1" icon="1" preview="1">
+        <row name="result" id="hsp_feedbackid">
+          <cell name="hsp_reserva" width="217" />
+          <cell name="a_48d56c2c782b4833b5e9e38a7f1afb0d.hsp_hospede" width="147" />
+          <cell name="hsp_nota" width="100" />
+          <cell name="hsp_comentario" width="300" />
+          <cell name="hsp_datafeedback" width="142" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="hsp_feedback">
+          <attribute name="hsp_feedbackid" />
+          <attribute name="hsp_reserva" />
+          <attribute name="hsp_nota" />
+          <attribute name="hsp_comentario" />
+          <attribute name="hsp_datafeedback" />
+          <link-entity alias="a_48d56c2c782b4833b5e9e38a7f1afb0d" name="hsp_reserva" to="hsp_reserva" from="hsp_reservaid" link-type="outer" visible="false">
+            <attribute name="hsp_hospede" />
+          </link-entity>
+          <order attribute="hsp_datafeedback" descending="true" />
+          <order attribute="hsp_reserva" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Todos Feedbacks" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

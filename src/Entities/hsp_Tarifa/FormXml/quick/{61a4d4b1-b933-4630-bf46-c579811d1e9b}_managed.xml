@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{61a4d4b1-b933-4630-bf46-c579811d1e9b}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{5e07a213-c148-4bcf-8b2d-b4887be52a97}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{926bd36d-b088-43f7-a5f5-345182a47b8c}">
+                  <labels>
+                    <label description="GERAL" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e1164e6a-b4c5-4f04-8fe2-b8e8083bc662}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hsp_nome" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{48fe27a2-42df-49d8-8000-6d266e644a28}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

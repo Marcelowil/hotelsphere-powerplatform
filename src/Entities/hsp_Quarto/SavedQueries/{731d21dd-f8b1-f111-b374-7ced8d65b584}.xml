@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{731d21dd-f8b1-f111-b374-7ced8d65b584}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="hsp_numerodoquarto" select="1" icon="1" preview="1">
+        <row name="result" id="hsp_quartoid">
+          <cell name="hsp_numerodoquarto" width="200" />
+          <cell name="hsp_hotel" width="228" />
+          <cell name="hsp_tipodequarto" width="219" />
+          <cell name="hsp_andar" width="168" />
+          <cell name="hsp_statusquarto" width="193" />
+          <cell name="hsp_observacoes" width="112" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="hsp_quarto">
+          <attribute name="hsp_numerodoquarto" />
+          <attribute name="hsp_quartoid" />
+          <attribute name="hsp_hotel" />
+          <attribute name="hsp_tipodequarto" />
+          <attribute name="hsp_andar" />
+          <attribute name="hsp_statusquarto" />
+          <attribute name="hsp_observacoes" />
+          <filter type="and">
+            <condition attribute="hsp_statusquarto" operator="eq" value="4" />
+          </filter>
+          <order attribute="hsp_hotel" descending="false" />
+          <order attribute="hsp_numerodoquarto" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quartos Bloqueados" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -5,18 +5,18 @@
     <IntroducedVersion>1.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{4077a540-d052-42d3-8d8a-3368467158e0}" IsUserDefined="1">
+        <tab verticallayout="true" id="{4077a540-d052-42d3-8d8a-3368467158e0}" IsUserDefined="1" name="informacoes_principais">
           <labels>
-            <label description="Geral" languagecode="1046" />
+            <label description="Informações principais" languagecode="1046" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e35e5073-f046-4aa2-b4ae-3a59c23ce199}">
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{e35e5073-f046-4aa2-b4ae-3a59c23ce199}" name="INFORMAÇÕES_TIPOQUARTO" celllabelposition="Top">
                   <labels>
-                    <label description="Geral" languagecode="1046" />
+                    <label description="IDENTIFICAÇÃO DO TIPO DE QUARTO" languagecode="1046" />
                   </labels>
                   <rows>
                     <row>
@@ -28,11 +28,65 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f1771604-2586-436a-8dba-ef87b8f12025}">
+                      <cell id="{7cf8e215-2ad3-4f75-85bf-58adb7d6ff60}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="" languagecode="1046" />
                         </labels>
-                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                        <control id="hsp_hotel" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_hotel" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c06f92b6-be62-4bc2-8b20-23c0193e4f2a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_descricao" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="hsp_descricao" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="configuracao_quarto" id="8186555b-b1e5-4070-ae9e-05cc97e9ba12" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="CONFIGURAÇÃO DO QUARTO " languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{b5b7462d-4dce-4e70-8277-b32fefe674c0}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{d4195142-2723-426e-ba01-b7bbeeac0e0e}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ae22742-74fe-4eba-b4c3-e527d547ba41}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_capacidade" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="hsp_capacidade" disabled="false" />
+                      </cell>
+                      <cell id="{46fd05d3-e2fe-4545-a33d-1a7f4dfbb877}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Quantidade de Cama" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_quantidadedecama" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="hsp_quantidadedecama" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{480fb7c5-1de8-4f13-a637-0c6692d56e1a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_valorbase" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="hsp_valorbase" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{09c65e60-c2e7-4223-b5ad-a5580c7e28e9}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>
@@ -42,11 +96,77 @@
           </columns>
         </tab>
       </tabs>
+      <header id="{d9bd8e3c-a4b4-4c53-958c-c0b334211c70}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5232f23d-9f1e-4b4a-bff8-e583749b3a8a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{4c60e6a2-de5c-42f0-beab-6e426a785acf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{bccdb823-6071-43bb-abc8-d5a47b96c6eb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{8734e820-7074-464c-a15b-ab95e373085a}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+            <cell id="{ce7900c8-bda5-44d1-bf47-25d6e5684001}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{152e2d99-5c4f-43cb-9efd-ae5a93d990cb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{23482782-57b1-4d56-8cdf-d5f79a7e90ca}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{2612245f-2203-455c-9eec-6006727acf42}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{65405607-34dd-4381-ab98-f4ed52b5994b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem Area="Info" Show="true" RelationshipName="hsp_quarto_TipodeQuarto_hsp_tipodequarto" Id="nav_hsp_quarto_TipodeQuarto_hsp_tipodequarto" Sequence="10000">
+            <Titles>
+              <Title Text="Quartos deste tipo" LCID="1046" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+      </Navigation>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Informações" languagecode="1046" />
+      <LocalizedName description="Formulário Principal" languagecode="1046" />
     </LocalizedNames>
     <Descriptions>
       <Description description="Um formulário para esta entidade." languagecode="1046" />

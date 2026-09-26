@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{56e62c27-0b89-4aaa-a9d7-c14a7ed0565e}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{0b0f121f-c2ed-408c-b5d6-0d030ad915d4}" IsUserDefined="1" name="resumo">
+          <labels>
+            <label description="Resumo" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{60d600c6-68f7-4579-a034-ea606364161e}" name="identificacao pagamento" celllabelposition="Top" columns="11">
+                  <labels>
+                    <label description="IDENTIFICAÇÃO DO PAGAMENTO" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eb597b3d-30a7-49b6-8cde-1dfa3339414a}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_codigopagamento" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hsp_codigopagamento" />
+                      </cell>
+                      <cell id="{ff2e5871-73db-4824-a0db-4466f0aab3f0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_statuspagamento" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="hsp_statuspagamento" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dce41fa0-31eb-4d7b-8212-d1a2ec74d675}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_reserva" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_reserva" disabled="false" />
+                      </cell>
+                      <cell id="{b0646c73-d78a-4dfa-a18d-9ef6c9724d1d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_metodopagamento" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="hsp_metodopagamento" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c07767a5-e9ad-4673-a1ac-06ebc9e16dea}" visible="false">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{4279cea3-78db-473f-afdd-545a52df6194}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="resumo_section_3" id="33a27389-4f8f-40ea-8d4a-45841a873149" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="VALORES" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{a563c3df-1bdc-4fac-b8e8-8989f6b44fd9}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{99c7334a-83c6-4f6f-8345-52be215bb2b3}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{1bbf4452-dc23-45af-a1f2-b64479a0c8cd}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                      <cell id="{27e39a8a-1b6f-47f9-a65b-78d82b4d6627}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_datapagamento" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="hsp_datapagamento" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b491ccb4-35c0-4dc0-b7c8-500d55406f97}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_valor" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="hsp_valor" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="resumo_section_4" id="dd63011a-fd87-4d08-9b2b-f77e2f0251e4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="OBSERVAÇÕES" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{e0ddf5dd-51e5-4202-8840-eb292474ab19}" locklevel="0" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_observacoes" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="hsp_observacoes" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="b381fa4e-3870-4b43-bdaa-6bbcc0c70a95" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Detalhes" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="auditoria" id="63385f0c-c5f7-45d3-a44a-bdc12b505d36" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="AUDITORIA" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{bfcec0e2-0a4f-4175-af84-ffc035610009}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{82ea4cd6-097d-4c34-8861-cc734d4ed84f}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58762c0c-f220-470e-a4c8-0d805265bd7d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                      <cell id="{800bd6b0-d8fb-4160-a14d-864b5e8f0653}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76331d08-2a31-41b9-b1aa-c261ceb78019}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                      <cell id="{244c47d7-816f-4db2-8d29-2ce0d38a0d65}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{976acce8-114c-4d71-8492-257e463fc5b0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5ef1c697-4df3-4862-99d7-fa0ecb8860de}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{c92e8cb0-8a84-4b5e-bb15-8f3f7b266999}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{334f8934-79c1-4dd9-81e7-86edbbee78a6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{bd6ad068-6e52-41ce-aeac-0ef7b67dc34b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{541a1efa-c227-4adb-beef-caa96135beff}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{168ecf67-49c9-40e3-bbdb-7d184f916832}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{00425a33-424d-4d11-afc9-aa433bf47af8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Principal Pagamento" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f36ee07f-04b2-f111-b374-7ced8d65b584}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_informacoes" showlabel="false" labelid="{239ea82f-24bd-4c55-a99e-26b7ff225f8c}">
+          <labels>
+            <label description="Informações Hóspede" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" celllabelposition="Top" labelid="{8a470cca-9257-4396-be0b-3d72b52d11eb}">
+                  <labels>
+                    <label description="Nova Seção" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{9550f61b-113f-470f-8cad-c57e5af57571}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6977fb26-3545-498a-b839-b7f78440c735}" locklevel="0" colspan="1" rowspan="1" labelid="{51e3fdb5-e984-49f9-81d5-a68d79c8932d}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0987731e-2cd9-4580-ae4b-a02fdb2b6a62}" locklevel="0" colspan="1" rowspan="1" labelid="{1d3b11ac-5db5-4d43-a834-f2141b16ac2b}">
+                        <labels>
+                          <label description="Sobrenome" languagecode="1046" />
+                        </labels>
+                        <control id="lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b0a64b81-0f9d-4267-9a7f-3ffc16a2e182}" locklevel="0" colspan="1" rowspan="1" labelid="{9ef9efd9-9135-41e5-9ef0-a02d6ca95728}">
+                        <labels>
+                          <label description="CPF" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_cpf" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hsp_cpf" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22e77163-4997-4ebe-80fc-f5c98e137828}" locklevel="0" colspan="1" rowspan="1" labelid="{552e3c85-d65c-43b3-9148-96af1ca03178}">
+                        <labels>
+                          <label description="Telefone Celular" languagecode="1046" />
+                        </labels>
+                        <control id="mobilephone" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d35ef61-c835-4ff2-94fb-30a33ede1e7f}" locklevel="0" colspan="1" rowspan="1" labelid="{b7414010-a8c0-4e68-84d9-ac9265b163ea}">
+                        <labels>
+                          <label description="Email" languagecode="1046" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{5b3a98f3-aecc-4912-82c4-0af73961afeb}">
+                  <labels>
+                    <label description="Nova Seção" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{a189e361-8b3a-4be0-968f-19f8a6186267}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{319a04ff-18e9-4dbe-b499-915aaf8153b4}">
+                  <labels>
+                    <label description="Nova Seção" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{341355a6-b1d7-46a7-8053-7438e5ca50b0}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="3" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Hóspede formulário de criação rápida" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

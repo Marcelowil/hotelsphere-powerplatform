@@ -7,9 +7,9 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{41f83e63-b40b-48ee-bca4-6871c7f4471f}" IsUserDefined="1">
+        <tab verticallayout="true" id="{41f83e63-b40b-48ee-bca4-6871c7f4471f}" IsUserDefined="1" name="Visualizacao rapida">
           <labels>
-            <label description="" languagecode="1046" />
+            <label description="Visualização Rápida" languagecode="1046" />
           </labels>
           <columns>
             <column width="100%">
@@ -28,7 +28,47 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{941fa301-e911-4107-8f05-43a9b933bcb9}">
+                      <cell id="{761b39c7-c3c9-405b-afd6-213fafafdd3c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Hotel" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_hotel" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_hotel" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5da59897-2a0e-459a-96c4-45c7a2f27979}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Descrição" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_descricao" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="hsp_descricao" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b056023d-7fc2-4a05-b76e-b9a5537e3110}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Capacidade" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_capacidade" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="hsp_capacidade" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a2d5ed0-9d04-4d56-a648-8e3b9e3801c4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Quantidade de Camas" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_quantidadedecama" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="hsp_quantidadedecama" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cbd6268e-b663-45f0-9f20-e2b70b7e8e38}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Valor Base" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_valorbase" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="hsp_valorbase" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{941fa301-e911-4107-8f05-43a9b933bcb9}" visible="false">
                         <labels>
                           <label description="Proprietário" languagecode="1046" />
                         </labels>
@@ -42,6 +82,9 @@
           </columns>
         </tab>
       </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

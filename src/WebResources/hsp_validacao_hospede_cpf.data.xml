@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{1ff6e9f5-83b3-f111-b374-7ced8d65b584}</WebResourceId>
+  <Name>hsp_validacao_hospede_cpf</Name>
+  <DisplayName>JS - Validar CPF Hóspede</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/hsp_validacao_hospede_cpf1FF6E9F5-83B3-F111-B374-7CED8D65B584</FileName>
+</WebResource>

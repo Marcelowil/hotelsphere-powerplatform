@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4b18f101-10b5-f111-b377-7ced8d65b584}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{3cebd7db-ba3a-4b75-8bf1-e4c883fb8b4d}">
+          <labels>
+            <label description="Nova Guia" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" celllabelposition="Top" labelid="{2fa028ad-8148-479c-a69d-15f25d6b8a04}">
+                  <labels>
+                    <label description="IDENTIFICAÇÃO DO PAGAMENTO" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{1fedb685-0bba-429d-877e-730a429080bd}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5a381a3d-3306-4538-9968-eb39dfa8ff90}" locklevel="0" colspan="1" rowspan="1" labelid="{8f79becd-d430-449f-8613-70e68b7c081b}">
+                        <labels>
+                          <label description="Código do Pagamento" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_codigopagamento" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hsp_codigopagamento" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b2ee683-7a51-4c03-a918-2505ec248a69}" locklevel="0" colspan="1" rowspan="1" labelid="{525c7410-9ebc-4cde-9adc-24444986fe4e}">
+                        <labels>
+                          <label description="Reserva" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_reserva" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_reserva" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e09ec48f-c49c-48e9-b778-f7ebd37a9639}" locklevel="0" colspan="1" rowspan="1" labelid="{37e6c7c4-3773-4865-bfd5-755d09861c5e}">
+                        <labels>
+                          <label description="Status do Pagamento" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_statuspagamento" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="hsp_statuspagamento" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d21a0871-6a5e-45ac-a398-0868eb747197}" locklevel="0" colspan="1" rowspan="1" labelid="{af07fafe-893a-4f08-bc5c-3a8f87996af9}">
+                        <labels>
+                          <label description="Método de Pagamento" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_metodopagamento" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="hsp_metodopagamento" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" celllabelposition="Top" labelid="{899575d2-6216-47ac-8e16-ea2760bcb8cc}">
+                  <labels>
+                    <label description="VALORES" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{3ea005ce-fc51-4437-ad72-562efcc8965c}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc8fd7be-d28e-4715-8851-b11dacf17157}" locklevel="0" colspan="1" rowspan="1" labelid="{bbdcfe34-f99f-49a6-818e-08c3f5b7305e}">
+                        <labels>
+                          <label description="Valor" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_valor" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="hsp_valor" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75d63c36-af0c-4b9c-bedc-058f25023662}" locklevel="0" colspan="1" rowspan="1" labelid="{2babe577-58c3-4fd7-ad3e-c31a5f3e62dc}">
+                        <labels>
+                          <label description="Data do Pagamento" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_datapagamento" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="hsp_datapagamento" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{f73eb7ae-c537-459a-8e4c-93e1d8ca7304}">
+                  <labels>
+                    <label description="Nova Seção" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{0a131169-c502-427a-a677-92d8fa3f1b99}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Pagamento formulário de criação rápida" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

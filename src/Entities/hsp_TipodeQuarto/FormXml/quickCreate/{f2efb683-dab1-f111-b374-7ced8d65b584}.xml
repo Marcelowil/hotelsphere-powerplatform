@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f2efb683-dab1-f111-b374-7ced8d65b584}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{5b94521b-6093-4879-8f3c-548c40abc828}">
+          <labels>
+            <label description="Nova Guia" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" celllabelposition="Top" labelid="{3e66924d-2a87-4b38-a916-d61ae84c669f}">
+                  <labels>
+                    <label description="Descrição" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{46ec1e93-85e2-4df5-a81a-e72c949802dd}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f31cece4-32ac-4155-9bb4-2d661ccf2807}" locklevel="0" colspan="1" rowspan="1" labelid="{32e78517-c412-4543-91c3-bb28ee28167b}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_nome" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hsp_nome" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{acd897a7-8ad1-438e-a82c-fbb0fcff755c}" locklevel="0" colspan="1" rowspan="1" labelid="{05376275-6cb3-4251-acb1-367785b1d8b6}">
+                        <labels>
+                          <label description="Hotel" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_hotel" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_hotel" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58838318-e9c4-45cc-a9bd-f60322ced625}" locklevel="0" colspan="1" rowspan="1" labelid="{80a2b346-9f90-483f-857b-9a14fbc47680}">
+                        <labels>
+                          <label description="Descrição" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_descricao" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="hsp_descricao" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" celllabelposition="Top" labelid="{4d007d02-bcbb-4cfd-9d25-dbe2c8492b1c}">
+                  <labels>
+                    <label description="Configuração" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fde713c4-056a-4134-92cc-a2c7e5c2badc}" locklevel="0" colspan="1" rowspan="1" labelid="{d9a58e99-2dd4-4e7e-ad35-56c477b4abd1}">
+                        <labels>
+                          <label description="Capacidade" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_capacidade" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="hsp_capacidade" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{540e6e11-ef9a-4bee-8e7d-e97c2728fca6}" locklevel="0" colspan="1" rowspan="1" labelid="{b771daaf-baff-4973-8b13-a71130ed032f}">
+                        <labels>
+                          <label description="Quantidade de Camas" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_quantidadedecama" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="hsp_quantidadedecama" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c62c0a7a-346a-4b9f-afc7-1f3a9d0119bb}" locklevel="0" colspan="1" rowspan="1" labelid="{9c793a3f-1c62-4e54-9f45-34d67a0b633f}">
+                        <labels>
+                          <label description="Valor Base" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_valorbase" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="hsp_valorbase" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{091b83a5-87d0-473c-9833-427bc5cb84a4}">
+                  <labels>
+                    <label description="Nova Seção" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{33f0dab8-b5c8-4763-8b10-cae7f23a5fec}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Tipo de Quarto formulário de criação rápida" languagecode="1046" />
+    </LocalizedNames>
+  </systemform>
+</forms>

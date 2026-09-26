@@ -5,13 +5,16 @@
     <CanBeDeleted>0</CanBeDeleted>
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
-    <isdefault>1</isdefault>
+    <isdefault>0</isdefault>
     <savedqueryid>{e3baf2c3-9b16-47c6-8d98-9e41d7ee1fb7}</savedqueryid>
     <layoutxml>
       <grid name="resultset" jump="hsp_nome" select="1" icon="1" preview="1">
         <row name="result" id="hsp_tipodequartoid">
           <cell name="hsp_nome" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="hsp_hotel" width="182" />
+          <cell name="hsp_capacidade" width="106" />
+          <cell name="hsp_quantidadedecama" width="162" />
+          <cell name="hsp_valorbase" width="140" />
         </row>
       </grid>
     </layoutxml>
@@ -21,11 +24,14 @@
         <entity name="hsp_tipodequarto">
           <attribute name="hsp_tipodequartoid" />
           <attribute name="hsp_nome" />
-          <attribute name="createdon" />
           <order attribute="hsp_nome" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="hsp_hotel" />
+          <attribute name="hsp_capacidade" />
+          <attribute name="hsp_quantidadedecama" />
+          <attribute name="hsp_valorbase" />
         </entity>
       </fetch>
     </fetchxml>

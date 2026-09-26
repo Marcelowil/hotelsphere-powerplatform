@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{2683debf-10b5-f111-b377-7ced8d65b584}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="hsp_codigopagamento" select="1" icon="1" preview="1">
+        <row name="result" id="hsp_pagamentoid">
+          <cell name="hsp_codigopagamento" width="200" />
+          <cell name="hsp_reserva" width="207" />
+          <cell name="hsp_metodopagamento" width="222" />
+          <cell name="hsp_valor" width="178" />
+          <cell name="hsp_datapagamento" width="150" />
+          <cell name="hsp_statuspagamento" width="184" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="hsp_pagamento">
+          <attribute name="hsp_codigopagamento" />
+          <attribute name="hsp_pagamentoid" />
+          <attribute name="hsp_reserva" />
+          <attribute name="hsp_metodopagamento" />
+          <attribute name="hsp_valor" />
+          <attribute name="hsp_statuspagamento" />
+          <order attribute="hsp_reserva" descending="false" />
+          <filter type="and">
+            <condition attribute="hsp_statuspagamento" operator="in">
+              <value>1</value>
+              <value>2</value>
+            </condition>
+          </filter>
+          <attribute name="hsp_datapagamento" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Pagamentos Concluídos" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

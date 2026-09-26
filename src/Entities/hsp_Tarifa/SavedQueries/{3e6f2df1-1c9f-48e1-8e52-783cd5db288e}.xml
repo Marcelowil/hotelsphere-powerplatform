@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3e6f2df1-1c9f-48e1-8e52-783cd5db288e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="hsp_nome" select="1" icon="1" preview="1">
+        <row name="result" id="hsp_tarifaid">
+          <cell name="hsp_codigotarifa" width="135" />
+          <cell name="hsp_hotel" width="220" />
+          <cell name="hsp_tipodequarto" width="198" />
+          <cell name="hsp_origem" width="176" />
+          <cell name="hsp_datainicio" width="120" />
+          <cell name="hsp_datafinal" width="100" />
+          <cell name="hsp_tarifavigente" width="121" />
+          <cell name="hsp_valordiaria" width="131" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="hsp_tarifa">
+          <attribute name="hsp_tarifaid" />
+          <attribute name="hsp_codigotarifa" />
+          <attribute name="hsp_hotel" />
+          <attribute name="hsp_tipodequarto" />
+          <attribute name="hsp_origem" />
+          <attribute name="hsp_datainicio" />
+          <attribute name="hsp_datafinal" />
+          <attribute name="statecode" />
+          <attribute name="hsp_tarifavigente" />
+          <attribute name="hsp_valordiaria" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="hsp_hotel" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Tarifas Ativos(as)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

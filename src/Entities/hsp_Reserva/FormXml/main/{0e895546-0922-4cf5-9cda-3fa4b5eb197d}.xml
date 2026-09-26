@@ -5,30 +5,56 @@
     <IntroducedVersion>1.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{a2c8e345-b458-47ba-b0bb-3c9c071549dd}" IsUserDefined="1">
+        <tab verticallayout="true" id="{a2c8e345-b458-47ba-b0bb-3c9c071549dd}" IsUserDefined="1" expanded="false" name="Resumo">
           <labels>
-            <label description="Geral" languagecode="1046" />
+            <label description="Resumo" languagecode="1046" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{9c553d86-06bf-4c61-9eac-dd9209f653f4}">
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{9c553d86-06bf-4c61-9eac-dd9209f653f4}" columns="11" celllabelposition="Top" name="identificacao_reserva">
                   <labels>
-                    <label description="Geral" languagecode="1046" />
+                    <label description="IDENTIFICAÇÃO DA RESERVA" languagecode="1046" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{d57e7b50-f856-4afa-b53c-61962f8baf38}">
+                      <cell id="{9374ea82-d7bd-4401-b8c8-71f0ff5eb83f}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Código da Reserva" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_codigoreserva" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hsp_codigoreserva" disabled="false" />
+                      </cell>
+                      <cell id="{6ffb2b6c-6ac2-404a-92ef-156ef1e81483}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status da Reserva" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_statusreserva" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="hsp_statusreserva" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{796d626b-49e5-49d2-a420-23376c0e2853}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Código Externo" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_codigoexterno" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hsp_codigoexterno" disabled="false" />
+                      </cell>
+                      <cell id="{99ef288a-c015-4a78-bd1c-0dd5b46c2c6e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Origem" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_origem" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="hsp_origem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d57e7b50-f856-4afa-b53c-61962f8baf38}" visible="false">
                         <labels>
                           <label description="Nome" languagecode="1046" />
                         </labels>
                         <control id="hsp_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="hsp_nome" />
                       </cell>
-                    </row>
-                    <row>
-                      <cell id="{fb76bfef-7e14-4b2a-8032-ab2dcdf09278}">
+                      <cell id="{fb76bfef-7e14-4b2a-8032-ab2dcdf09278}" visible="false" colspan="1" rowspan="1">
                         <labels>
                           <label description="Proprietário" languagecode="1046" />
                         </labels>
@@ -37,16 +63,276 @@
                     </row>
                   </rows>
                 </section>
+                <section name="hospede" id="50c58376-aff1-4b29-a7ab-d4cd368c80d8" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="HÓSPEDE E OCUPAÇÃO" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{98fc5fc3-ef5f-459e-995e-ef740751c475}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{e60ae9c8-0be8-4c97-b676-c34c6f943586}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ef542cb7-fbf1-45be-b135-0aac7b85f357}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Hóspede principal" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_hospede" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_hospede" disabled="false" />
+                      </cell>
+                      <cell id="{ae6e4bd0-3885-41ef-a04b-250a12600f0b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Quantidade de Hóspedes" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_quantidadehospedes" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="hsp_quantidadehospedes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{b95f16b3-d024-4b69-93d2-95767b77c207}" rowspan="4" colspan="2" auto="true" showlabel="true">
+                        <labels>
+                          <label description="Adicionar Hóspedes" languagecode="1046" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="sub_hospedes_reserva" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>5</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>hsp_hospede_reserva</RelationshipName>
+                            <TargetEntityType>contact</TargetEntityType>
+                            <ViewId>{66388162-05B2-F111-B374-7CED8D65B584}</ViewId>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001003},{66388162-05B2-F111-B374-7CED8D65B584}</ViewIds>
+                            <VisualizationId>{E365462F-1DB9-46A8-928D-BEAB1A7A2375}</VisualizationId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="estadia" id="8f9ad736-b56d-4589-bec1-3d16014d1854" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="111" labelwidth="115">
+                  <labels>
+                    <label description="ESTADIA" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{b652185a-a8c3-4b25-86b0-45e7bef7e16e}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{c1bf2ab6-67b4-469d-8833-76ff1ca57dbd}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{9da464e2-ef67-4935-98c4-229ed833fdac}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0eb673f0-7fff-4e2e-b4dc-49232d65db55}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Quarto" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_quarto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_quarto" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{54C15454-F9B1-F111-B374-7CED8D65B584}</DefaultViewId>
+                            <AvailableViewIds>{D48854B1-B31D-4298-84E7-23952E6A62DE},{FCDEFCF2-F4B1-F111-B374-7CED8D65B584},{E79C97C8-DA52-40F2-8336-EB348BCADB03},{731D21DD-F8B1-F111-B374-7CED8D65B584},{4F8461BE-F3B1-F111-B374-7CED8D65B584},{3E542843-F6B1-F111-B374-7CED8D65B584},{1F29EC95-AAC4-4685-B1E6-7471E9166E31},{54C15454-F9B1-F111-B374-7CED8D65B584},{D29BA5A9-F4B1-F111-B374-7CED8D65B584}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{091064e6-fb00-40c2-ba64-99ca279d5d52}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Data de Entrada" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_dataentrada" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="hsp_dataentrada" disabled="false" />
+                      </cell>
+                      <cell id="{17e7a3ae-a2f7-4891-a2b0-250c5701f441}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Data de Saída" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_datadesaida" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="hsp_datadesaida" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tarifa" id="d4cf9b6d-024c-47fd-83e5-524df3e3036a" IsUserDefined="0" locklevel="1" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="111" labelwidth="115">
+                  <labels>
+                    <label description="TARIFA E VALOR" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{7380a7bb-7a5b-419f-969b-9f8635cba534}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{94f8ad9c-cd71-4188-b070-a1f5d6d55534}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{f7567860-badd-4b40-bda2-2a5166c0266c}">
+                        <labels>
+                          <label description="" languagecode="1046" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da51fc97-552d-424f-82e5-89ecc53e378d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Tarifa" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_tarifa" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_tarifa" disabled="false" />
+                      </cell>
+                      <cell id="{e1193931-5090-4104-81c5-291fb9a9f82b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Valor por diária" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_valordiaria" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="hsp_valordiaria" disabled="false" />
+                      </cell>
+                      <cell id="{4981b18a-4782-4fc9-b49f-d8ea4c7d7f51}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Valor Total" languagecode="1046" />
+                        </labels>
+                        <control id="hsp_valortotal" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="hsp_valortotal" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="pagamento" id="6c05cb16-ccb0-4480-b101-0efb7af02add" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Pagamento" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="pagamento_section_3" id="b2a85f2a-8148-44a6-972a-c5088d95f953" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Nova Seção" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{03ee6a73-0d7f-4f22-a9cb-09db585944cf}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="Pagamentos realizados" languagecode="1046" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>hsp_pagamento_reserva_hsp_reserva</RelationshipName>
+                            <TargetEntityType>hsp_pagamento</TargetEntityType>
+                            <ViewId>{AE620E4B-9F97-4C0F-BC93-AD647EE27D71}</ViewId>
+                            <ViewIds>{AE620E4B-9F97-4C0F-BC93-AD647EE27D71}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
         </tab>
       </tabs>
+      <header id="{06dc7151-ffbe-49c9-9a32-44a16e35771c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ce28634a-2cc7-45bc-a468-83c2b30ef553}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{adfe6316-9513-46f8-8829-43eb41bbb00a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{094d043a-154d-4c03-b7fc-51bab1312e0c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{0deceb29-3fbc-441c-b81a-940f6bc38a3d}" locklevel="1" colspan="1" rowspan="1">
+              <labels>
+                <label description="Código da Reserva" languagecode="1046" />
+              </labels>
+              <control id="header_hsp_codigoreserva" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="hsp_codigoreserva" disabled="false" />
+            </cell>
+            <cell id="{b45f1f56-504a-43dd-9535-c5f71e3b59be}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Status da Reserva" languagecode="1046" />
+              </labels>
+              <control id="header_hsp_statusreserva" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="hsp_statusreserva" disabled="false" />
+            </cell>
+            <cell id="{c6039bee-3ccb-4ab0-b071-829d1555dda0}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Hóspede" languagecode="1046" />
+              </labels>
+              <control id="header_hsp_hospede" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_hospede" disabled="false" />
+            </cell>
+            <cell id="{7a1f1e36-c918-4bc5-9e6a-2092f3e1ddf3}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Quarto" languagecode="1046" />
+              </labels>
+              <control id="header_hsp_quarto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="hsp_quarto" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0a3cdd04-d2ad-4ee6-8ef8-75b237e81795}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fc96c9fc-a758-40d0-a5c8-002f65eea44d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{ce17004e-bd7c-4678-b6cf-4c77a11ac7c0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+            <cell id="{1e1699e0-6d61-46ae-bf61-27ef5fc4a9b4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1046" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Informações" languagecode="1046" />
+      <LocalizedName description="Formulário principal" languagecode="1046" />
     </LocalizedNames>
     <Descriptions>
       <Description description="Um formulário para esta entidade." languagecode="1046" />
